@@ -5,4 +5,4 @@ Estarei sempre atualizando esse repositório enquanto estudo e aprimoro minhas s
 
 **Cada desafio tem seu próprio arquivo readme explicando todos os detalhes do desafio. Se desejar você pode até submeter o que você fez na plataforma deles.**
 
-**OBS: desafios terminados terão a mensagem de commit "Terminado"** 
+**🔴OBS: desafios terminados terão a mensagem de commit "Terminado"** 
