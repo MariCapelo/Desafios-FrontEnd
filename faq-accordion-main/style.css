@@ -4,7 +4,7 @@ body
     margin: 0%;
 }
 
-.conteiner 
+#conteiner 
 {
     background-color: hsl(0, 0%, 100%);
     min-width: 650px; 
@@ -20,6 +20,7 @@ body
     top: 50%;
     transform: translate(-50%,-50%); 
     padding: 5px;
+    overflow: auto;
 }
 
  .banner, .banner img 
