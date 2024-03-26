@@ -7,8 +7,8 @@ body
 #conteiner 
 {
     background-color: hsl(0, 0%, 100%);
-    min-width: 650px; 
-    min-height: 650px; 
+    width: 40vw;
+    height: auto;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -19,8 +19,7 @@ body
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%); 
-    padding: 5px;
-    overflow: auto;
+    padding: 0px 30px 15px 30px ;
 }
 
  .banner, .banner img 
@@ -30,12 +29,10 @@ body
 
  .titulo
  {
-    display: inherit;
+    display: flex;
     width: 300px;
     height: auto;
-    position: fixed;
-    top: 0%;
-    left: 40px;
+    align-self: flex-start;
  }
 
  .titulo img
@@ -61,12 +58,6 @@ body
     height: auto;
  }
 
- .conteiner-frases
- {
-    width: 570px;
-    max-height: 400px;
- }
-
  .frase1, .frase2, .frase3
  {
    border-bottom:hsl(275, 100%, 97%) solid 1px;
@@ -76,6 +67,13 @@ body
  {
    border: none;
    background-color: white;
+ }
+
+ .conteiner-frases
+ {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
  }
 
  .conteiner-frases img
