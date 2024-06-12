@@ -1,0 +1,35 @@
+.card__conteiner
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 380px;
+    height: 295px;
+    top: 340px;
+    left: 24px;
+    gap: 16px;
+    border-radius: 10px;
+    background-color: var(--branco);
+    box-shadow: 0px 2px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 1em 0.5em 0.5em 1em;
+}
+
+.card__titulo{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--laranja)
+}
+
+.card__nome-livro{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul);
+    margin: 1em 0;
+}
+
+.card__description{
+    font-size: 14px;
+    font-weight: 400;
+}
